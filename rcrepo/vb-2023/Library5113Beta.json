@@ -1,7 +1,7 @@
 {
     "fileName": "Library5113Beta.json",
     "name": "Library5113Beta",
-    "version": "48f0e8a",
+    "version": "bddf9b2",
     "uuid": "5869a73f-d175-403d-9107-8ce1766835ba",
     "mavenUrls": [
         "https://frc5113.github.io/LibraryBuilds/rcrepo/vb-2023/"
@@ -11,7 +11,7 @@
         {
             "groupId": "com.frc5113",
             "artifactId": "library",
-            "version": "48f0e8a"
+            "version": "bddf9b2"
         }
     ],
     "jniDependencies": [],
