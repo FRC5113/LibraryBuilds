@@ -1,0 +1,195 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.frc5113",
+    "module": "library",
+    "version": "0592262",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.5.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "library-0592262.jar",
+          "url": "library-0592262.jar",
+          "size": 5432884,
+          "sha512": "72de37dd7c7e1e0369d08e2d7b2af57c32e94efeb79b4b995065c4dbb624dc4c119afbc81eed93e27d7c0ffa0f494dc50514db183427c09fdf1ed0d675137f61",
+          "sha256": "64464b971cd9c3dfff1d0c66a12cacdbcfe7c09e86a8c78b77659d97d2c414ca",
+          "sha1": "fccb2414707fd589b0275a3d2b4847599eb46c2a",
+          "md5": "bbce22d2196ddc585cef4aaa29ec37c0"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "edu.wpi.first.wpilibj",
+          "module": "wpilibj-java",
+          "version": {
+            "requires": "2023.2.1"
+          }
+        },
+        {
+          "group": "edu.wpi.first.wpimath",
+          "module": "wpimath-java",
+          "version": {
+            "requires": "2023.2.1"
+          }
+        },
+        {
+          "group": "edu.wpi.first.ntcore",
+          "module": "ntcore-java",
+          "version": {
+            "requires": "2023.2.1"
+          }
+        },
+        {
+          "group": "edu.wpi.first.cscore",
+          "module": "cscore-java",
+          "version": {
+            "requires": "2023.2.1"
+          }
+        },
+        {
+          "group": "edu.wpi.first.cameraserver",
+          "module": "cameraserver-java",
+          "version": {
+            "requires": "2023.2.1"
+          }
+        },
+        {
+          "group": "edu.wpi.first.hal",
+          "module": "hal-java",
+          "version": {
+            "requires": "2023.2.1"
+          }
+        },
+        {
+          "group": "edu.wpi.first.wpinet",
+          "module": "wpinet-java",
+          "version": {
+            "requires": "2023.2.1"
+          }
+        },
+        {
+          "group": "edu.wpi.first.wpiutil",
+          "module": "wpiutil-java",
+          "version": {
+            "requires": "2023.2.1"
+          }
+        },
+        {
+          "group": "edu.wpi.first.apriltag",
+          "module": "apriltag-java",
+          "version": {
+            "requires": "2023.2.1"
+          }
+        },
+        {
+          "group": "edu.wpi.first.thirdparty.frc2023.opencv",
+          "module": "opencv-java",
+          "version": {
+            "requires": "4.6.0-4"
+          }
+        },
+        {
+          "group": "org.ejml",
+          "module": "ejml-simple",
+          "version": {
+            "requires": "0.41"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.core",
+          "module": "jackson-annotations",
+          "version": {
+            "requires": "2.12.4"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.core",
+          "module": "jackson-core",
+          "version": {
+            "requires": "2.12.4"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.core",
+          "module": "jackson-databind",
+          "version": {
+            "requires": "2.12.4"
+          }
+        },
+        {
+          "group": "edu.wpi.first.wpilibNewCommands",
+          "module": "wpilibNewCommands-java",
+          "version": {
+            "requires": "2023.2.1"
+          }
+        },
+        {
+          "group": "com.revrobotics.frc",
+          "module": "REVLib-java",
+          "version": {
+            "requires": "2023.1.2"
+          }
+        },
+        {
+          "group": "com.ctre.phoenix",
+          "module": "api-java",
+          "version": {
+            "requires": "5.30.3"
+          }
+        },
+        {
+          "group": "com.ctre.phoenix",
+          "module": "wpiapi-java",
+          "version": {
+            "requires": "5.30.3"
+          }
+        },
+        {
+          "group": "com.kauailabs.navx.frc",
+          "module": "navx-frc-java",
+          "version": {
+            "requires": "2023.0.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "library-0592262.jar",
+          "url": "library-0592262.jar",
+          "size": 5432884,
+          "sha512": "72de37dd7c7e1e0369d08e2d7b2af57c32e94efeb79b4b995065c4dbb624dc4c119afbc81eed93e27d7c0ffa0f494dc50514db183427c09fdf1ed0d675137f61",
+          "sha256": "64464b971cd9c3dfff1d0c66a12cacdbcfe7c09e86a8c78b77659d97d2c414ca",
+          "sha1": "fccb2414707fd589b0275a3d2b4847599eb46c2a",
+          "md5": "bbce22d2196ddc585cef4aaa29ec37c0"
+        }
+      ]
+    }
+  ]
+}
